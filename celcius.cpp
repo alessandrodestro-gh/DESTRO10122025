@@ -1,3 +1,4 @@
+//Alessandro Destro 10/12/2025 V:1.0.0
 #include<iostream>
 #include<stdlib.h>
 #include <stdio.h>
@@ -7,6 +8,9 @@ using namespace std;
 float conversione (int gradi_c);
 int main () 
 {
+	int const n1=32;
+		int const n2=9;
+			int const n3=5;
 for (int i=0; i<=20; i++)
 	{
 		cout <<i<<" gradi celsius sono equivalenti a : "<< conversione (i) <<" gradi fareneith"<< endl;
@@ -14,5 +18,5 @@ for (int i=0; i<=20; i++)
 }
 float conversione (int gradi_c)
 {
-	return 32+(9/5)*gradi_c;
+	return n1+(n2/n3)*gradi_c;
 }
